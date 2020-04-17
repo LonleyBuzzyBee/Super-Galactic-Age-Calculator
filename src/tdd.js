@@ -1,5 +1,5 @@
-import { userInfo } from "os";
 import $ from 'jquery';
+import { user } from './main.js';
 //business logic
 export class User {
   constructor (name, age, planet, favM, ageE) {
@@ -12,20 +12,20 @@ export class User {
   }
   sortP() {
     switch(this.planet){
-      case "mars":
-        this.mars();
-        break;
-      case "jupiter":
-        this.jupiter();
-        break;
-      case "venus":
-        this.venus();
-        break;
-      case "mercury":
-        this.mercury();
-        break;
-      default:
-        console.log("error choose a planet");
+  case "mars":
+    this.mars();
+    break;
+  case "jupiter":
+    this.jupiter();
+    break;
+  case "venus":
+    this.venus();
+    break;
+  case "mercury":
+    this.mercury();
+    break;
+  default:
+    console.log("error choose a planet");
     }
   }
   mars() {
@@ -95,7 +95,12 @@ export class User {
   }
   
   print() {
-   return $("#output").html(this.user);
+    user.sortP();
+    user.mars();
+    user.jupiter();
+    user.venus();
+    user.mercury();
+   return $("#output").text(this.user);
 
 
   }
