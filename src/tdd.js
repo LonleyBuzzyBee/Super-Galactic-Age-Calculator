@@ -53,5 +53,8 @@ export class User {
   mercury() {
 
   }
+  print(){
+    
+  }
 }
 

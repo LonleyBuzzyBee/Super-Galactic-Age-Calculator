@@ -21,7 +21,7 @@ test ("the sortP function sees which planet the user chose then pushes user obj 
 test ("the mars function sorts if which fav movie the user selected then multiplies the users age by 1.88", () => {
 
   user.mars();
-  expect(user.planet).toContain("forrest-gump");
+  expect(user.favM).toContain("forrest-gump");
 })
 
 })
