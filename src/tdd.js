@@ -45,16 +45,59 @@ export class User {
 
   }
   jupiter() {
+    if(this.favM === "forrest-gump") {
+      this.age * 11.86;
+      this.ageE = "you'll live for 20 more years";
+      this.print();
+    }else if (this.favM === "totoro"){
+      this.age * 11.86;
+      this.ageE = "you'll live forever";
+      this.print();
+    }else if(this.favM === "paul"){
+      this.age * 11.86;
+      this.ageE = "make sure to go through your life insurance policy soon...";
+      this.print();
+    }
+
 
   }
   venus() {
+    if(this.favM === "forrest-gump") {
+      this.age % .62;
+      this.ageE = "you'll live for 20 more years";
+      this.print();
+    }else if (this.favM === "totoro"){
+      this.age % .62;
+      this.ageE = "you'll live forever";
+      this.print();
+    }else if(this.favM === "paul"){
+      this.age % .62;
+      this.ageE = "make sure to go through your life insurance policy soon...";
+      this.print();
+    }
+
 
   }
   mercury() {
+    if(this.favM === "forrest-gump") {
+      this.age % .24;
+      this.ageE = "you'll live for 20 more years";
+      this.print();
+    }else if (this.favM === "totoro"){
+      this.age % .24;
+      this.ageE = "you'll live forever";
+      this.print();
+    }else if(this.favM === "paul"){
+      this.age % .24;
+      this.ageE = "make sure to go through your life insurance policy soon...";
+      this.print();
+    }
+
 
   }
   print(){
-    
+   
+
   }
 }
 
