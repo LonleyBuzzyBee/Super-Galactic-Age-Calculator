@@ -1,5 +1,5 @@
 import { userInfo } from "os";
-
+import $ from 'jquery';
 //business logic
 export class User {
   constructor (name, age, planet, favM, ageE) {
@@ -92,12 +92,13 @@ export class User {
       this.ageE = "make sure to go through your life insurance policy soon...";
       this.print();
     }
+  }
+  
+  print() {
+   return $("#output").html(this.user);
 
 
   }
-  print(){
-    $("#").html(this.user);
 
-  }
 }
 
