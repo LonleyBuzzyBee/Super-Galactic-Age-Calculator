@@ -19,7 +19,6 @@ If a user has already surpassed the average life expectancy, return the number o
 
 
 
-
 -  next function then determines which movie the user choose and either adds or subtracts from the age 
 
 - the users input is then printed onto the html

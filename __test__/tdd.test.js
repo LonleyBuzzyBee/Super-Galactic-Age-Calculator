@@ -12,12 +12,18 @@ test ("the user obj takes the user input", () => {
   
   })
 
-test ("the sortP function sees which planet the user chose then multiplies age by 1.88 if its venus,", () => {
+test ("the sortP function sees which planet the user chose then multiplies age by 1.88 if its mars,", () => {
 
   user.sortP();
   expect(user.planet).toContain("mars");
   expect(user.age * 1.88).toBe(31.959999999999997);
   
   })
+  test ("the ageExpectancy function sees which movie the user chose then makes the property ageE into a string,", () => {
 
+    user.ageExpectancy();
+    expect(user.favM).toContain("forrest-gump");
+    expect(user.ageE).toBe("you'll live");
+    
+    })
 })

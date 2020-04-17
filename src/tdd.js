@@ -19,32 +19,20 @@ console.log(this.user);
     } if (this.planet === "mercury"){
       return this.age % .24;
     }
-
-
-
-
-
-
-
-
-    // let mars = function() {
-    //   if(this.favM === "forrest-gump") {
-    //     this.age * 1.88;
-    //     this.ageE = "you'll live for 20 more years";
-    //     this.print();
-    //   }else if (this.favM === "totoro"){
-    //     this.age * 1.88;
-    //     this.ageE = "you'll live forever";
-    //     this.print();
-    //   }else if(this.favM === "paul"){
-    //     this.age * 1.88;
-    //     this.ageE = "make sure to go through your life insurance policy soon...";
-    //     this.print();
-    //   }
+  }
+    ageExpectancy() {
+      if (this.favM === "forrest-gump") {
+        this.ageE = "you'll live for 20 more years";
+      } if (this.favM === "totoro"){
+        this.ageE = "you'll live forever";
+      } if (this.favM === "paul"){
+        this.ageE = "make sure to go through your life insurance policy soon...";
+    }
+  }
+}
+  
   
 
 
  
-    }
-  }
 
