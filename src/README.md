@@ -16,12 +16,12 @@ If a user has already surpassed the average life expectancy, return the number o
 
 - the sort function determines which planetary age they selected then passes them into the next function
 
-- if the planet they choose was mercury then it divides the users year by .24. then determines which movie the user choose and either adds or subtracts from the age 
+- if the planet they choose was mercury then it divides the users year by .24. in the mercury function then determines which movie the user choose and either adds or subtracts from the age 
 
-- if the planet they choose was venus then it divides the users year by .62. then determines which movie the user choose and either adds or subtracts from the age 
+- if the planet they choose was venus then it divides the users year by .62. in the venus function then determines which movie the user choose and either adds or subtracts from the age 
 
-- if the planet they choose was mars then it mutiplies the users year by 1.88. then determines which movie the user choose and either adds or subtracts from the age 
+- if the planet they choose was mars then it mutiplies the users year by 1.88. in the mars function then determines which movie the user choose and either adds or subtracts from the age 
 
-- if the planet they choose was jupiter then it multiplie the users year by 11.86. then determines which movie the user choose and either adds or subtracts from the age 
+- if the planet they choose was jupiter then it multiplie the users year by 11.86. in the jupiter function then determines which movie the user choose and either adds or subtracts from the age 
 
 - the users input is then printed onto the html

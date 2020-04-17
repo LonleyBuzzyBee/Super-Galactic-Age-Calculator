@@ -26,5 +26,17 @@ export class User {
         console.log("error choose a planet");
     }
   }
+  mars() {
+
+  }
+  jupiter() {
+
+  }
+  venus() {
+
+  }
+  mercury() {
+    
+  }
 }
 
