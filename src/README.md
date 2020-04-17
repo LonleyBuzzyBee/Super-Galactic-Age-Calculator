@@ -12,7 +12,7 @@ If a user has already surpassed the average life expectancy, return the number o
 
 - the program takes the input and stores it in ageinput object as properties
 
-- the class ageinput object ten gets put into the first sort funtion within the prototype
+- the class user object then gets put into the first sort funtion within the prototype
 
 - the sort function determines which planetary age they selected then passes them into the next function
 
