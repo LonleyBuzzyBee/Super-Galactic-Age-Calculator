@@ -11,13 +11,13 @@ console.log(this.user);
 
   sortP() {
     if (this.planet === "mars" ) {
-      this.age = this.age* 1.88;
+      this.age * 1.88;
     } if (this.planet === "jupiter"){
-      this.age = this.age * 11.86;
+      this.age * 11.86;
     } if (this.planet === "venus"){
-      this.age = this.age % .62;
+      this.age % .62;
     } if (this.planet === "mercury"){
-      this.age = this.age % .24;
+      this.age % .24;
     }
 
 
