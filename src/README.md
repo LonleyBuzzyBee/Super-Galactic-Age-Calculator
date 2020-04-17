@@ -14,14 +14,12 @@ If a user has already surpassed the average life expectancy, return the number o
 
 - the class user object then gets put into the first sort funtion within the prototype
 
-- the sort function determines which planetary age they selected then passes them into the next function
+- the sort function determines which planetary age they selected if the planet they choose was mercury then it divides the users year by .24, if its venus then it divides the users year by .62, if it was mars then it mutiplies the users year by 1.88,if it was jupiter then it multiplie the users year by 11.86, then passes them into the next function
 
-- if the planet they choose was mercury then it divides the users year by .24. in the mercury function then determines which movie the user choose and either adds or subtracts from the age 
 
-- if the planet they choose was venus then it divides the users year by .62. in the venus function then determines which movie the user choose and either adds or subtracts from the age 
 
-- if the planet they choose was mars then it mutiplies the users year by 1.88. in the mars function then determines which movie the user choose and either adds or subtracts from the age 
 
-- if the planet they choose was jupiter then it multiplie the users year by 11.86. in the jupiter function then determines which movie the user choose and either adds or subtracts from the age 
+
+-  next function then determines which movie the user choose and either adds or subtracts from the age 
 
 - the users input is then printed onto the html
