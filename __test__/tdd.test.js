@@ -23,5 +23,20 @@ test ("the mars function sorts if which fav movie the user selected then multipl
   user.mars();
   expect(user.favM).toContain("forrest-gump");
 })
+test ("the jupiter function sorts if which fav movie the user selected then multiplies the users age by 11.86", () => {
+
+  user.jupiter();
+  expect(user.favM).toContain("forrest-gump");
+})
+test ("the venus function sorts if which fav movie the user selected then divides the users age by .62", () => {
+
+  user.venus();
+  expect(user.favM).toContain("forrest-gump");
+})
+test ("the mercury function sorts if which fav movie the user selected then divides the users age by .24", () => {
+
+  user.mercury();
+  expect(user.favM).toContain("forrest-gump");
+})
 
 })
