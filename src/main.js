@@ -15,8 +15,8 @@ $(document).ready(function(){
     let favM = $("#favM").val();
     let user = new User(name,age,planet,favM);
     user.sortP();
-    user.print();
-    console.log(user.print());
+    
+    console.log(user.sortP());
     console.log(user);
 
   });
