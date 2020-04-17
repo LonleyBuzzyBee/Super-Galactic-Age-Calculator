@@ -27,7 +27,9 @@ export class User {
     }
   }
   mars() {
+ 
 
+    
   }
   jupiter() {
 
@@ -36,7 +38,7 @@ export class User {
 
   }
   mercury() {
-    
+
   }
 }
 
