@@ -13,7 +13,7 @@ export class User {
   sortP() {
     switch(this.planet){
   case "mars":
-    this.mars();
+    this.mars(this.user);
     break;
   case "jupiter":
     this.jupiter();
