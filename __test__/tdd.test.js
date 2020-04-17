@@ -4,11 +4,11 @@ import { User } from './../src/tdd.js';
 describe("User", () => {
   let user;
   beforeEach(() => {
-    user = new User("ted",17,"mars","forrest-gump","you'll live")
+    user = new User("ted",17,"mars","forrest-gump","undefined")
   })
 
 test ("the user obj takes the user input", () => {
-  expect(user).toEqual({"name":"ted", "age":17, "planet":"mars", "favM":"forrest-gump", "ageE":"you'll live"});
+  expect(user).toEqual({"name":"ted", "age":17, "planet":"mars", "favM":"forrest-gump", "ageE":"undefined"});
   
   })
 
@@ -23,7 +23,7 @@ test ("the sortP function sees which planet the user chose then multiplies age b
 
     user.ageExpectancy();
     expect(user.favM).toContain("forrest-gump");
-    expect(user.ageE).toBe("you'll live");
+    expect(user.ageE).toBe("you'll live for 20 more years");
     
     })
 })
