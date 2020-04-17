@@ -96,7 +96,7 @@ export class User {
 
   }
   print(){
-   
+    $("#").html(this.user);
 
   }
 }
