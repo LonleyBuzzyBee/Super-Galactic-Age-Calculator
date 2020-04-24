@@ -13,11 +13,20 @@ $(document).ready(function(){
     let age = parseInt($("#age").val());
     let planet = $("#planet").val();
     let favM = $("#favM").val();
-    let user = new User(name,age,planet,favM);
+    let user = new User(name, age, planet, favM);
     user.sortP();
     user.ageExpectancy();
-    $("#output").text();
-    console.log(user.sortP());
+    
+    if (user) {
+      $("#output1").append(`${user.name}`);
+      $("#output2").append(`${user.age}`);
+      $("#output3").append(`${user.ageE}`);
+    }
+
+
+    
+        
+   
     console.log(user);
 
   });
