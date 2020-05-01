@@ -13,8 +13,8 @@ _Welcome to Super Galactic Age Calculater where you can learn your age in planet
 
 ## Project Specifications
 
-| Behavior | Input | Output |
-|---|---|---|
+| Behavior |
+|---|
 |Take a person’s age in years and create a class that does the following: |
 | the program takes the users input from a form taking in the users age, and which movie in the selected options is their fav and which selected option to choose for the age in which planetary years  |
 | the program takes the input and stores it in ageinput object as properties |
