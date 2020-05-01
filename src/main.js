@@ -21,13 +21,9 @@ $(document).ready(function(){
       $("#output1").append(`${user.name}`);
       $("#output2").append(`${user.age}`);
       $("#output3").append(`${user.ageE}`);
+      
     }
 
-
-    
-        
-   
-    console.log(user);
 
   });
 });

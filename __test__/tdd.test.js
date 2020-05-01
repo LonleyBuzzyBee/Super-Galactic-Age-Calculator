@@ -10,7 +10,23 @@ describe("User", () => {
 test ("the user obj takes the user input", () => {
   expect(user).toEqual({"name":"ted", "age":17, "planet":"mars", "favM":"forrest-gump", "ageE":"undefined"});
   
+  expect(user).toEqual(expect.anything());
   })
+test ("the user obj takes the user input name", () => {
+  expect(user.name).not.toEqual("fred");
+  expect(user.name).toBeTruthy();
+  })
+test ("the user obj takes the user input age", () => {
+  expect(user.age).not.toEqual(27);
+  expect(user.age).toBeTruthy();
+  expect(user.age).not.toBeUndefined();
+  })
+test ("the user obj takes the user's selected planet", () => {
+  expect(user.planet).toMatch("mars");
+})
+test ("the user obj takes the user's fav movie", () => {
+  expect(user.favM).not.toMatch("totoro");
+})
 
 test ("the sortP function sees which planet the user chose then multiplies age by 1.88 if its mars,", () => {
   user.sortP();
@@ -25,10 +41,14 @@ test ("the sortP function sees which planet the user chose then multiplies age b
     expect(user.ageE).toBe("you'll live for 20 more years");
     
   })
-  test("the travelPack function determines which planet they choose and then gives them travel packages for that planet", () => {
-    user.travelPack();
-
-    expect(user.planet).toContain("mars");
-    expect(arr).toContain("Traveling with UMarZ: cost $375.98");
+  test("if they choose totoro as their fav movie then they will live forever", () => {
+    user.ageExpectancy();
+    
+    expect(user.ageE).not.toContain("you'll live forever");
+  })
+  test("if they choose paul as their fav movie then they will need to check their life insurance", () => {
+    user.ageExpectancy();
+    
+    expect(user.ageE).not.toContain("make sure to go through your life insurance policy soon...");
   })
 })

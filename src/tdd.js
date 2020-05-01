@@ -12,13 +12,13 @@ export class User {
   sortP() {
     let i = this.age;
     if (this.planet === "mars") {
-      this.age = i* 1.88;
+      this.age = i * 1.88;
       
     } else if (this.planet === "jupiter") {
-      this.age = i* 11.86;
+      this.age = i * 11.86;
        
     } else if (this.planet === "venus") {
-      this.age = i/ .62;
+      this.age = i / .62;
       
     } else if (this.planet === "mercury") {
       this.age = i / .24;
@@ -40,5 +40,4 @@ export class User {
     }
   }
 
- 
 }
